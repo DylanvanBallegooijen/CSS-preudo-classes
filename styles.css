@@ -1,0 +1,64 @@
+.a:link{
+    color:red;
+}
+.a:visited{
+    color:green;
+}
+.a:hover{
+    color:lightblue;
+    font-weight: bold ;
+}
+.a:active{
+    color:blue;
+}
+
+.b:link{
+    color:pink;
+}
+.b:visited{
+    color:green;
+}
+.b:hover{
+    color:black;
+    font-style:oblique;
+}
+.b:active{
+    color:red;
+    font-size:x-large;
+}
+
+.c:link{
+    color:pink;
+}
+.c:visited{
+    color:yellow;
+}
+.c:hover{
+    color:black;
+    font-style:italic;
+}
+.c:active{
+    color:red;
+    font-style: oblique;
+}
+input:focus{
+    color:green;
+    font-size: 20px;
+}
+.container ul{
+    background-color:rgb(119, 113, 117);
+    color:white;
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+}
+li{
+    display:inline;
+}
+.currentpage:hover {
+    display:inline;
+    background-color:lightsteelblue;
+}
+input:focus{
+    border-color:aqua;
+}
